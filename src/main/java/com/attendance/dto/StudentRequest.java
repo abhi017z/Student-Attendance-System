@@ -17,4 +17,6 @@ public class StudentRequest {
     @NotBlank(message = "Email is required")
     @Email(message = "Email should be valid")
     private String email;
+    @NotBlank(message = "USN is required")
+    private String usn;
 }
