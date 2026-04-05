@@ -194,9 +194,3 @@ The application uses an in-memory H2 database by default. Configuration is in `a
 - Database: H2 (in-memory)
 - JPA: Auto-update schema
 - H2 Console: Enabled at `/h2-console`
-
-## Notes
-
-- The application uses an in-memory H2 database, so data is lost when the application stops
-- For production use, consider switching to MySQL or PostgreSQL
-- The H2 console is enabled for development and testing purposes
