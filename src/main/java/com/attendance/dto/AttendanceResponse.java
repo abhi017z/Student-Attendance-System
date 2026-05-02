@@ -11,7 +11,6 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AttendanceResponse {
-    private Long id;
     private LocalDate date;
     private AttendanceStatus status;
     private Long studentId;
